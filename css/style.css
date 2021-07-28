@@ -1,0 +1,27 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color & common styles */
+.prim-clr{
+    color: #E76F51;
+}
+
+.secon-clr{
+    color: #0B0D17;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+

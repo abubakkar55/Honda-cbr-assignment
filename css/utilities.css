@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color & common styles */
+.prim-clr {
+    color: #E76F51;
+}
+
+.secon-clr {
+    color: #0B0D17;
+}
+
+.gray-clr {
+    color: #E0E0E0;
+}
+
+/* section--heading */
+.section--heading {
+    font-size: 4.8rem;
+    font-weight: 800;
+    line-height: 7.2rem;
+}
+
+button{
+    border: 0;
+}
+
+
+/* button */
+.btn--cta {
+    padding: 1.3rem 2.8rem;
+    background-color: #E76F51;
+    font-weight: 600;
+    color: #fff;
+    border-radius: .5rem;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.btn--cta:hover {
+    background-color: #0B0D17;
+    color: #fff;
+}
+
+
+/* horizontall line */
+.horizontall-line {
+    position: relative;
+}
+
+.horizontall-line::before {
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    border-radius: 20rem;
+    content: "";
+    transform: translateX(-50%);
+    width: 10%;
+    height: .3rem;
+    background-color: #E76F51;
+}
+
+
+/* modal */
+
+.modal .modal-content .modal-title{
+    font-size: 2.3rem;
+}
+
+.modal .modal-content > * .btn--cta{
+    padding: 1rem 1.8rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
